@@ -1,390 +1,191 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uncommon Hacks</title>
-    <meta name="description" content="Learn and build with technology with Uncommon Hacks.">
-    <link href="style.css" rel="stylesheet">
+    <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/team.css">
+
+    <!-- External javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div id = "title"><span id="titleText">Uncommon</span>
-    <span id="teamTitle">Team</span>
-    </div>
-    <div id = "bottomTitle">
-    <a href="https://www.messenger.com/t/1129538927063790/?messaging_source=source%3Apages%3Amessage_shortlink"><img class="icon" id = "messenger" src="images/messenger.svg"></a>
-    <a href="mailto:celery@uncommonhacks.com"><img class="icon" id = "email" src="images/email.svg"></a>
-    <a href="https://twitter.com/uncommonhacks"><img class="icon" id = "twitter" src="images/twitter.svg"></a>
-    <a href="https://www.facebook.com/uncommonhacks"><img class="icon" id = "facebook" src="images/facebook.svg"></a>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <!-- Uncommon Hacks logo -->
+        <span class="navbar-brand logo">
+          <img class="mini-logoz" src="images/site/logo.svg"/>
+          <span class="disappear">Meet the Team!</span>
+        </span>
 
-    </div>
-    <a  href="https://uncommonhacks.com" ><img id = "logo" src="images/faviconFilled.png"></a>
-    <div id = "mainContainer" class="grid-container">
-      <div id="cell1">
-        <div id="im1" class="imageDiv"> 
-          <img src="images/antonSerious.png" class="headshot">
-        </div>
-        <div id="im1-backside" class="imageDiv-back"> 
-          <img src="images/antonFunny.jpg" class="headshot">
-        </div>
-      </div>
-    <div id="cell2">
-        <div id="im2" class="imageDiv"> 
-          <img src="images/dashaSerious.png" class="headshot">
-        </div>
-        <div id="im2-backside" class="imageDiv-back"> 
-          <img src="images/dashaFunny.png" class="headshot">
-        </div>
-      </div>
-      <div id="cell3">
-        <div id="im3" class="imageDiv"> 
-          <img src="images/anneSerious.png" class="headshot">
-        </div>
-        <div id="im3-backside" class="imageDiv-back"> 
-          <img src="images/anneFunny.png" class="headshot">
-        </div>
-      </div>
-        <div id="cell4">
-        <div id="im4" class="imageDiv"> 
-          <img src="images/nickSerious.png" class="headshot">
-        </div>
-        <div id="im4-backside" class="imageDiv-back"> 
-          <img src="images/nickFunny.png" class="headshot">
-        </div>
-      </div>
-       <div id="cell5">
-        <div id="im5" class="imageDiv"> 
-          <a href="https://www.linkedin.com/in/xinyu-samantha-chen/"><img src="images/samanthaSerious.jpg" class="headshot"></a>
-        </div>
-        <div id="im5-backside" class="imageDiv-back"> 
-          <a href="https://www.linkedin.com/in/xinyu-samantha-chen/"><img src="images/samanthaFunny.jpg" class="headshot"></a>
-        </div>
-      </div>
-
-      <div id="cell6">
-        <div id="im6" class="imageDiv"> 
-          <img src="images/joeSerious.png" class="headshot">
-        </div>
-        <div id="im6-backside" class="imageDiv-back"> 
-          <img src="images/joeFunny.png" class="headshot">
-        </div>
-      </div>
-
-      <div id="cell7">
-        <div id="im7" class="imageDiv"> 
-          <a href="https://www.instagram.com/reneev_h/"><img src="images/reneeSerious.png" class="headshot"></a>
-        </div>
-        <div id="im7-backside" class="imageDiv-back"> 
-          <a href="https://www.instagram.com/reneev_h/"><img src="images/reneeFunny.png" class="headshot"></a>
-        </div>
-      </div>
-
-      <div id="cell8">
-        <div id="im8" class="imageDiv"> 
-          <a href="https://thomaspropson.com"><img src="images/thomasFunny.png" class="headshot"></a>
-        </div>
-        <div id="im8-backside" class="imageDiv-back"> 
-          <a href="https://thomaspropson.com"><img src="images/thomasFunny.png" class="headshot"></a>
-        </div>
-      </div>
-  <div id="cell9">
-        <div id="im9" class="imageDiv"> 
-          <a href="https://www.linkedin.com/in/angelawholiu/"><img src="images/angelaSerious.png" class="headshot"></a>
-        </div>
-        <div id="im9-backside" class="imageDiv-back"> 
-          <a href="https://www.linkedin.com/in/angelawholiu/"><img src="images/angelaFunny.png" class="headshot"></a>
-        </div>
-      </div>
-  <div id="cell10">
-        <div id="im10" class="imageDiv"> 
-          <a href="https://www.linkedin.com/in/spencer-ng/"><img src="images/spencerSerious.png" class="headshot"></a>
-        </div>
-        <div id="im10-backside" class="imageDiv-back"> 
-          <a href="https://www.linkedin.com/in/spencer-ng"><img src="images/spencerFunny.png" class="headshot"></a>
-        </div>
-      </div>
-  <div id="cell11">
-        <div id="im11" class="imageDiv"> 
-          <img src="images/jimSerious.jpg" class="headshot">
-        </div>
-        <div id="im11-backside" class="imageDiv-back"> 
-          <img src="images/jimFunny.png" class="headshot">
-        </div>
-      </div>
-  <div id="cell12">
-        <div id="im12" class="imageDiv"> 
-          <a href="https://angelasha.com"><img src="images/angelaShaSerious.png" class="headshot"></a>
-        </div>
-        <div id="im12-backside" class="imageDiv-back"> 
-          <a href="https://angelasha.com"><img src="images/angelaShaFunny.png" class="headshot"></a>
-        </div>
-      </div>
-  <div id="cell13">
-        <div id="im13" class="imageDiv"> 
-          <a href="https://www.linkedin.com/in/kate-lu-a8bb6517b/"><img src="images/kateSerious.jpg" class="headshot"></a>
-        </div>
-        <div id="im13-backside" class="imageDiv-back"> 
-          <a href="https://www.linkedin.com/in/kate-lu-a8bb6517b/"><img src="images/kateFunny.JPG" class="headshot"></a>
-        </div>
-      </div>
-    <div id="cell14">
-      <div id="im14" class="imageDiv"> 
-        <img src="images/christianSerious.jpg" class="headshot">
-      </div>
-      <div id="im14-backside" class="imageDiv-back"> 
-        <img src="images/christianFunny.jpg" class="headshot">
-      </div>
-    </div>
-
-  <div id="c1Div">
-    <span id="c1" class="caption1">Anton Outkine </span>
-  </div>
-  <div id="c2Div">
-    <span id="c2" class="caption1">Daria Shifrina</span>
-  </div>
-  <div id="c3Div">
-    <span id="c3" class="caption1">Anne Havlik</span>
-  </div>
-  <div id="c4Div">
-    <span id="c4" class="caption1">Nick Liu</span>
-  </div>
-  <div id="c5Div">
-    <span id="c5" class="caption1">Samantha Chen</span>
-  </div>
-  <div id="c6Div">
-    <span id="c6" class="caption1">Joe Aulicino</span>
-  </div>
-
-  <div id="c7Div">
-    <span id="c7" class="caption1">Renee Huang</span>
-  </div>
-
-  <div id="c8Div">
-    <span id="c8" class="caption1">Thomas Propson</span>
-  </div>
-  <div id="c9Div">
-    <span id="c9" class="caption1">Angela Liu</span>
-  </div>
-  <div id="c10Div">
-    <span id="c10" class="caption1">Spencer Ng</span>
-  </div>
-    <div id="c11Div">
-    <span id="c11" class="caption1">Jim Liu</span>
-  </div>
-    <div id="c12Div">
-    <span id="c12" class="caption1">Angela Sha</span>
-  </div>
-  <div id="c13Div">
-    <span id="c13" class="caption1">Kate Lu</span>
-  </div>
-  <div id="c14Div">
-    <span id="c14" class="caption1">Christian Bjerre-Fernandes</span>
-  </div>
-  </div>
+        <!-- Button appears only on smaller screen sizes. Clicking it reveals the hidden navbar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
     
+        <!-- Navbar collapses on smaller screen sizes -->
+        <div class="collapse navbar-collapse" id="navbarMain">
+          
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="https://uncommonhacks.com">Home</a>
+            </li>
 
-  </div>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" href="" role="button" data-bs-target="#contactModal">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
 
-  <script>
-    var magenta = "#a37cee";
-    var other = "#82EAFF";
-    var speed = 400;
-    $("#im1-backside").slideUp(speed);
-    $("#im1").slideDown(speed)
-    $("#im2-backside").slideUp(speed);
-    $("#im2").slideDown(speed)
-    $("#im3-backside").slideUp(speed);
-    $("#im3").slideDown(speed)
-    $("#im4-backside").slideUp(speed);
-    $("#im4").slideDown(speed)
-    $("#im5-backside").slideUp(speed);
-    $("#im5").slideDown(speed)
-    $("#im6-backside").slideUp(speed);
-    $("#im6").slideDown(speed)
-    $("#im7-backside").slideUp(speed);
-    $("#im7").slideDown(speed)
-    $("#im8-backside").slideUp(speed);
-    $("#im8").slideDown(speed)
-    $("#im9-backside").slideUp(speed);
-    $("#im9").slideDown(speed)
-    $("#im10-backside").slideUp(speed);
-    $("#im10").slideDown(speed)
-    $("#im11-backside").slideUp(speed);
-    $("#im11").slideDown(speed)
-    $("#im12-backside").slideUp(speed);
-    $("#im12").slideDown(speed)
-    $("#im13-backside").slideUp(speed);
-    $("#im13").slideDown(speed)
-    $("#im14-backside").slideUp(speed);
-    $("#im14").slideDown(speed)
-    if($(window).width() > 1201){
-          $("#cell1").hover(function (){
-                    $("#c1").text(' "First, to Saturn; then, to Starbucks." ');
-                    $("#im1").slideUp(speed);
-                    $("#im1-backside").slideDown(speed)
-       
-              },
-              function (){
-                    document.getElementById("c1").textContent =' Anton Outkine ';
-                    $("#im1-backside").slideUp(speed);
-                    $("#im1").slideDown(speed)
-            }
-          )
-          $("#cell2").hover(function (){
-                    $("#c2").text(' "let it rip" ');
-                    $("#im2").slideUp(speed);
-                    $("#im2-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c2").text(' Daria Shifrina ');
-                    $("#im2-backside").slideUp(speed);
-                    $("#im2").slideDown(speed)
-              }
-          )
-          $("#cell3").hover(function (){
-                    $("#c3").text(' "ope" ');
-                    $("#im3").slideUp(speed);
-                    $("#im3-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c3").text(' Anne Havlik ');
-                    $("#im3-backside").slideUp(speed);
-                    $("#im3").slideDown(speed)
-              }
-          )
-          $("#cell4").hover(function (){
-                    document.getElementById("c4").style.fontSize = "1em";
-                    $("#c4").text(' "Sometimes, the light at the end of the tunnel is a train." ');
-                    $("#im4").slideUp(speed);
-                    $("#im4-backside").slideDown(speed)
-              },
-              function (){
-                    document.getElementById("c4").style.fontSize = "1em";
-                    $("#c4").css("font-size: 1em")
-                    $("#c4").text(' Nick Liu ');
-                    $("#im4-backside").slideUp(speed);
-                    $("#im4").slideDown(speed)
-              }
-          )
-          $("#cell5").hover(function (){
-                    $("#c5").text(' "I am afraid of worms but not the ones on a string." ');
-                    $("#im5").slideUp(speed);
-                    $("#im5-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c5").text(' Samantha Chen ');
-                    $("#im5-backside").slideUp(speed);
-                    $("#im5").slideDown(speed)
-              }
-          )
-          $("#cell6").hover(function (){
-                    $("#c6").text(' "Your limitation-its only your imagination." ');
-                    $("#im6").slideUp(speed);
-                    $("#im6-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c6").text(' Joe Aulicino ');
-                    $("#im6-backside").slideUp(speed);
-                    $("#im6").slideDown(speed)
-              }
-          )
-          $("#cell7").hover(function (){
-                    $("#c7").text(' "yee haw mfs" ');
-                    $("#im7").slideUp(speed);
-                    $("#im7-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c7").text(' Renee Huang ');
-                    $("#im7-backside").slideUp(speed);
-                    $("#im7").slideDown(speed)
-              }
-          )
-          $("#cell8").hover(function (){
-                    $("#c8").text(' "why waste time say lot word when few word do trick" ');
-                    $("#im8").slideUp(speed);
-                    $("#im8-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c8").text(' Thomas Propson ');
-                    $("#im8-backside").slideUp(speed);
-                    $("#im8").slideDown(speed)
-              }
-          )
-          $("#cell9").hover(function (){
-                    $("#c9").text(' "tofu is superior to any other food. that is all" ');
-                    $("#im9").slideUp(speed);
-                    $("#im9-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c9").text(' Angela Liu ');
-                    $("#im9-backside").slideUp(speed);
-                    $("#im9").slideDown(speed)
-              }
-          )
-          $("#cell10").hover(function (){
-                    $("#c10").text(' "Its kind of fun to do the impossible" ');
-                    $("#im10").slideUp(speed);
-                    $("#im10-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c10").text(' Spencer Ng ');
-                    $("#im10-backside").slideUp(speed);
-                    $("#im10").slideDown(speed)
-              }
-          )
-          $("#cell11").hover(function (){
-                    $("#c11").text(' "I like trains" ');
-                    $("#im11").slideUp(speed);
-                    $("#im11-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c11").text(' Jim Liu ');
-                    $("#im11-backside").slideUp(speed);
-                    $("#im11").slideDown(speed)
-              }
-          )
-          $("#cell12").hover(function (){
-                    $("#c12").text(' "oui oui baguette" ');
-                    $("#im12").slideUp(speed);
-                    $("#im12-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c12").text(' Angela Sha ');
-                    $("#im12-backside").slideUp(speed);
-                    $("#im12").slideDown(speed)
-              }
-          )
-          $("#cell13").hover(function (){
-                    $("#c13").text(' "snow tastes good with maple syrup" ');
-                    $("#im13").slideUp(speed);
-                    $("#im13-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c13").text(' Kate Lu ');
-                    $("#im13-backside").slideUp(speed);
-                    $("#im13").slideDown(speed)
-              }
-          )
-          $("#cell14").hover(function (){
-                    $("#c14").text(' Christian Bjerre-Fernandes ');
-                    $("#im14").slideUp(speed);
-                    $("#im14-backside").slideDown(speed)
-              },
-              function (){
-                    $("#c14").text(' Christian Bjerre-Fernandes ');
-                    $("#im14-backside").slideUp(speed);
-                    $("#im14").slideDown(speed)
-              }
-          )
-    }
-    else{
-     console.log("Screen too small") 
-    }
-  setInterval(function(){ 1; }, 3000);    //used to make javascript dynamically update with page width
-  </script>
+    <!-- Main page content -->
+    <div class="container"> 
+      <input type="radio" id="UH" name="color" checked/>
+      <label for="UH">Full Team</label>
+      <input type="radio" id="TL" name="color" />
+      <label for="TL">Team Leads</label>
+      <input type="radio" id="HX" name="color"/>
+      <label for="HX">HX</label>
+      <input type="radio" id="Marketing" name="color"/>
+      <label for="Marketing">Marketing</label>
+      <input type="radio" id="Sponsorship" name="color"/>
+      <label for="Sponsorship">Sponsorship</label>
+      <input type="radio" id="Design" name="color"/>
+      <label for="Design">Design</label>
+      <input type="radio" id="Tech" name="color"/>
+      <label for="Tech">Tech</label>
+
+      <div class="space"></div>
+
+      <div class="tile TL">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/pizza-anton-square - Anton Outkine(1).png"> 
+          <img class="img_hover" src="images/Serious Images/new-anton-2 - Anton Outkine.jpg"> <br> 
+          <a class="blue" href="https://github.com/outkine">&nbsp Anton Outkine &nbsp</a>
+        </div>
+      </div>
+      <div class="tile TL">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/IMG_0909 - Renee Huang.JPG">
+          <img class="img_hover" src="images/Serious Images/profile pic copy - Renee Huang.jpg"> <br> <p>Renee Huang</p>
+        </div>
+      </div>
+      <div class="tile HX">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/20221012_184356 - Spencer Ng.jpg">
+          <img class="img_hover" src="images/Serious Images/IMG_7372 - Spencer Ng.jpg"> <br> 
+          <a class="orange" href="https://github.com/spencerng">&nbsp Spencer Ng &nbsp</a>
+        </div>
+      </div>
+      <div class="tile HX">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/WeChat Image_20221012200044 - Yiming Su.jpg">
+          <img class="img_hover" src="images/Serious Images/WeChat Image_20221012200041 - Yiming Su.jpg"> <br> 
+          <a class="green" href="https://github.com/yimingsu01">&nbsp Yiming Su &nbsp</a>
+        </div>
+      </div>
+      <div class="tile HX">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/67993726361__C22E49F8-634D-4E78-BFFF-D98388C4D1DC - Jack Rong.JPG">
+          <img class="img_hover" src="images/Serious Images/IMG_2865 copy - Jack Rong.JPG"> <br> 
+          <a class="blue" href="https://www.instagram.com/jaxk_rong/">&nbsp Jack Rong &nbsp</a>
+        </div>
+      </div>
+      <div class="tile Marketing">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/IMG_5899 - Subey Marchen.jpeg">
+          <img class="img_hover" src="images/Serious Images/PHOTO - Subey Marchen.jpeg"> <br> <p>Samantha Chen</p>
+        </div>
+      </div>
+      <div class="tile Sponsorship">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/temp_irinalee.png">
+          <img class="img_hover" src="images/Serious Images/Lee.Irina - Irina Lee.jpeg"> <br> <p>Irina Lee</p>
+        </div>
+      </div>
+      <div class="tile Sponsorship">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/temp_emily_bae.gif">
+          <img class="img_hover" src="images/Serious Images/EmilyBaeTillFurtherNotice.jpg"> <br> 
+          <a class="orange" href="https://www.linkedin.com/in/emily-yunseo-bae/">&nbsp Emily Bae &nbsp</a>
+        </div>
+      </div>
+      <div class="tile Sponsorship">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/JiayeUntilFurtherNotice.jpg">
+          <img class="img_hover" src="images/Serious Images/Yue_Jiayi.jpeg"> <br> 
+          <a class="green" href="https://www.instagram.com/jiayiyue08/">&nbsp Jiayi Yue &nbsp</a>
+        </div>
+      </div>
+      <div class="tile Design">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/_4WechatIMG5 copy - Nicole Li.jpeg">
+          <img class="img_hover" src="images/Serious Images/IMG_0913 copy - Nicole Li.jpg"> <br> <p>Nicole Li</p>
+        </div>
+      </div>
+      <div class="tile Design">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/me-hehe - Kristin Wu.png">
+          <img class="img_hover" src="images/Serious Images/its_me (1) - Kristin Wu.JPG"> <br> <p>Kristin Wu</p>
+        </div>
+      </div>
+      <div class="tile Tech">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/irinafunny.png">
+          <img class="img_hover" src="images/Serious Images/IMG_2010 - Irina Stamm.jpg"> <br> 
+          <a class="blue" href="https://www.instagram.com/bluairis/">&nbsp Irina Stamm &nbsp</a>
+        </div>
+      </div>
+      <div class="tile Tech">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/33b27b97-f275-40fa-b5d1-f43eb6c469bf - Nicholas Liu.jpeg">
+          <img class="img_hover" src="images/Serious Images/marseille headshot - Nicholas Liu.jpeg"> <br> <p>Nick Liu</p>
+        </div>
+      </div>
+      <div class="tile Tech">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/Chang_Nonformal - Eric Chang.jpg">
+          <img class="img_hover" src="images/Serious Images/Chang_Formal - Eric Chang.jpg"> <br> 
+          <a class="orange" href="https://www.ericyc.dev">&nbsp Eric Chang &nbsp</a>
+        </div>
+      </div>
+      <div class="tile Tech">
+        <div class="img_container">
+          <img class="img_not_hover" src="images/Funny Images/snorlax_carry - Hunter Smith.jpeg">
+          <img class="img_hover" src="images/Serious Images/Cropped Senior Pic - Hunter Smith.jpeg"> <br> <p>Hunter Smith</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal window for contact info -->
+    <div class="modal fade " id="contactModal" tabindex="-1">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="social-media">
+              <a class="no-underline" href="http://facebook.com/uncommonhacks" target="_blank">
+                <img class="social-media-img grow" src="images/site/facebook.svg"/>
+              </a>
+              <a class="no-underline" href="http://twitter.com/uncommonhacks" target="_blank">
+                <img class="social-media-img grow" src="images/site/twitter.svg"/>
+              </a>
+              <a class="no-underline" href="http://m.me/uncommonhacks" target="_blank">
+                <img class="social-media-img grow" src="images/site/messenger.svg"/>
+              </a>
+              <a class="no-underline" href="mailto:celery@uncommonhacks.com">
+                <img class="social-media-img grow" src="images/site/email.svg"/>
+              </a>
+            </div>
+
+            <p class="txt">Interested in becoming a sponsor? Contact us <a href="mailto:sponsorship@uncommonhacks.com" target="_blank">here</a>!</p>
+            <p class="txt">Subscribe to our email list <a href="https://eepurl.com/gp_SK1" target="_blank">here</a>!</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+</html>
